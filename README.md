@@ -1,11 +1,13 @@
-## 開発環境の構築
+## ローカルサーバー立ち上げ
 
-```
-docker-compose exec app yarn serve
+```bash
+$ docker-compose up -d
 ```
 
-## 本番用ファイル生成（docs配下に生成）
+`http://localhost:8000/`にアクセス
 
-```
+## 本番用ファイルの生成
+
+```bash
 $ docker-compose exec app yarn serve
 ```
