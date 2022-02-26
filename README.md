@@ -1,24 +1,11 @@
-# src
+## 開発環境の構築
 
-## Project setup
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
+docker-compose exec app yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## 本番用ファイル生成（docs配下に生成）
 
-### Lints and fixes files
 ```
-yarn lint
+$ docker-compose exec app yarn serve
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
