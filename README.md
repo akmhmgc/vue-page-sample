@@ -1,11 +1,27 @@
 # 開発方法など
 
-## ローカルサーバー立ち上げ
+## コンテナの立ち上げ
 
 ```bash
 $ docker-compose up -d
 ```
-[localhost:8000](http://localhost:8000/)でページが表示される
+
+## コンテナにる
+```bash
+$ docker-compose exec web /bin/bash
+```
+
+## (docker)パッケージのインストール
+```bash
+yarn install
+```
+
+## (docker)サーバーの立ち上げ
+```bash
+yarn serve
+```
+
+[localhost:8000](http://localhost:8000/)でページが表示されます
 
 ## ディレクトリ構成
 
